@@ -1,0 +1,545 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+.nav0{
+    width: 100%;
+    background-color: black;
+    position:fixed;
+    z-index: 100;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    width: 50%;
+    height: 5vh;
+    color:cyan;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 380px;
+    
+}
+.nav1.div{
+    padding: 10px;
+}
+.bk:hover{
+    color:aquamarine;
+}
+.bk{
+    color:chocolate;
+}
+.num1:hover{
+    color: chocolate;
+}
+.num2:hover{
+    color: chocolate;
+}
+.sup:hover{
+    color: chocolate;
+}
+.rti:hover{
+    color: chocolate;
+}
+.follow:hover{
+    color: chocolate;
+}
+.fa-brands:hover{
+    color: chocolate;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(27, 110, 27, 0.8);
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 12px;
+    position: fixed;
+    margin-top: 30px;
+    z-index: 120;
+
+}
+
+.nav2 img {
+    width: 58%;
+    margin-bottom: 10px;
+    margin-left: 23px;
+} 
+
+.abt:hover{
+    color:darksalmon;
+}
+.trh:hover{
+    color: darksalmon;
+}
+.con a{
+    color: rgb(250, 249, 248);
+}
+.con a{
+    text-decoration: none;
+}
+.con a:hover{
+    color: darksalmon;
+}
+.wwu a{
+    color: aliceblue;
+}
+.wwu a{
+    text-decoration: none;
+}
+.wwu a:hover{
+    color: darksalmon;
+}
+.shop:hover{
+    color: darksalmon;
+}
+.fa-solid a:hover{
+    color: darksalmon;
+}
+.fa-solid a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav3{
+    display: block;
+    background-color:rgb(228, 122, 47);
+    width: 10%;
+    height: 15vh;
+    text-align: center;
+}
+.nav3>p{
+    margin-top: 37px;
+    color: rgb(14, 14, 14);
+}
+.nav3>p a{
+    color: black;
+    text-decoration: none;
+}
+.nav3>p a:hover{
+    color: aliceblue;
+    
+}
+.cont{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.cont img{
+    width: 100%;
+    height: 135%;
+    cursor:pointer;
+    
+    
+}
+.cont img:hover{
+            zoom: normal;
+}
+.text{
+    position: absolute;
+    top:60vh;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.text{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.b1>button{
+    color: rgb(18, 19, 20);
+    height: 5vh;
+    background-color: rgb(222, 151, 100);
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+.witcont{
+    background-color: aliceblue;
+    width: 100%;
+    height: 80vh;
+}
+.witcont img{
+    margin-top: 150px;
+    height: 55vh;
+    width: 100%;
+}
+.newcont{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to top right,rgba(106, 95, 95, 0.7),rgba(69, 66, 66, 0.7));
+}
+.newcont img{
+    width: 100%;
+    height: 90vh;
+   
+}
+
+.bcon{
+    position: absolute;
+    top: 80px;
+    color: rgb(236, 224, 224);
+    
+}
+.ncont{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.navcont{
+   margin-left: 530px;
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(28, 33, 33);
+
+    
+ }
+ .navcont p{
+    text-shadow: 2px 2px blanchedalmond;
+ }
+ .imgs{
+    width: 45%;
+    height: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .head{
+    width: 45%;
+    height: 70vh;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+.imgs>img{
+    width: 180px;
+    height:130px;
+    border:2px solid;
+    margin-left: 30px;
+    transition: transform 0.2s;
+    
+}
+.imgs>img:hover{
+        transform: scale(1.1,1.1);
+}
+
+
+.b2>button{
+    height: 5vh;
+    background-color:chocolate;
+    border: none;
+    border-radius: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.b2>button:hover{
+    background-color: orangered;
+    color: antiquewhite;
+    transform: scale(1.1,1.1);
+}
+
+.cont3{
+    width: 100%;
+    height: 138vh;
+    background-color: rgb(209, 215, 214);
+}
+.navc3>p{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color:rgb(107, 83, 39)
+    
+}
+.ttext{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.twoi{
+    width: 45%;
+    height: 62vh;
+
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.texting{
+    width: 45%;
+    height: 62vh;
+    
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.b3>button{
+    height: 7vh;
+    background-color:orange;
+    border: none;
+    border-radius: 4px;
+    padding-right: 13px;
+    padding-left: 13px;
+    color: rgb(74, 61, 44);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    
+    
+}
+.b3>button:hover{
+    background-color: orangered;
+    color: antiquewhite;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.twoi>img{
+    width: 90%;
+    margin-left: 25px;
+}
+.ftr1{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.class{
+    text-align: center;
+    
+    
+}
+.body1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.body1 div{
+    width: 17%;
+    height: 50%;
+}
+.body1 div img{
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+}
+.arrow{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    font-size: 40px;
+    color: rgb(41, 45, 45);
+    padding: 0px 5px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.les:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.great:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+.ftr2{
+    width: 100%;
+    height: 7vh;
+
+    background-color: rgb(98, 189, 189);
+}
+.ftrtext{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+}
+.ftrtext>p>b{
+    background-color: rgba(255, 166, 0, 0.76);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    
+}
+.ftrtext>p>b:hover{
+    background-color: rgb(214, 142, 7);
+    color: azure;
+    
+}
+.ftr3{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(45, 44, 46);
+}
+.icons{
+    color: rgb(49, 197, 234);
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+
+}
+.icon1{
+    word-spacing: 10px;
+}
+.divs{
+    display: flex;
+    margin-left: 80px;
+    padding-top: 30px;
+    
+}
+.divs>img{
+    width: 120px;
+    height: 120px;
+    margin-left: 12px;
+    
+}
+.frtlast>p{
+    color: antiquewhite;
+    line-height: 24px;
+    text-align:left;
+    margin-left: 18px;
+
+    
+
+}
+.frtlast>p>i{
+    color: aqua;
+}
+.frtlast>p:hover>i{
+    color: rgb(139, 189, 3);
+}
+.frtlast1{
+margin-left: 90px;
+line-height: 23px;
+font-size: 15px;
+    
+}
+.frtlast1>p{
+    text-align: left;
+    color: antiquewhite;
+
+}
+.frtlast1>p>i{
+    color: aqua;
+    font-style: normal;
+}
+.frtlast1>p>em{
+    color: orange;
+    font-style: normal;
+}
+.frtlast1>p:hover>em{
+    color:rgb(159, 93, 12);
+    cursor: pointer;
+    
+}
+.frtlast2{
+    margin-left: 40px;
+    text-align: left;
+    line-height: 19px;
+    font-size: 15px;
+}
+.frtlast2>p{
+    color: antiquewhite;
+}
+.frtlast2>p>em{
+    color: aqua;
+    font-style: normal;
+}
+.frtlast2>p:hover>i{
+    color:orange;
+}
+.frtlast2>p>i{
+    color: aqua;
+    font-style: normal;
+} 
+.last{
+    margin-top: 30px;
+    color: antiquewhite;
+    font-size: 10px;
+    cursor: pointer;
+    
+} 
+.last>i{
+    font-style: normal;
+}
+.last:hover>i{
+    
+    color: orange;
+}                            
+.abt{
+    position: relative;
+}
+.smenu{
+    position: absolute;
+    background-color: rgb(16, 14, 18);
+    text-align: center;
+    width: 130px;
+    padding-left: 5px;
+    line-height: 30px;
+    font-size: 13px;
+    display: none;
+    opacity: 0.8;
+}
+.smenu div{
+    color: rgb(234, 230, 226);
+    width: 100%;
+}
+.abt:hover .smenu{
+    display: block;
+}
+.file{
+    position: relative;
+}
+.menu{
+    position: absolute;
+    background-color: rgb(16, 14, 18);
+    text-align: center;
+    width: 130px;
+    padding-left: 5px;
+    line-height: 30px;
+    font-size: 13px;
+    display: none;
+    opacity: 0.8;
+}
+.menu div{
+    color: rgb(234, 230, 226);
+    width: 100%;
+}
+.hub{
+    position: relative;
+}
+.trh:hover .menu{
+    display: block;
+}
+
+
+
+
+
+
+
+    

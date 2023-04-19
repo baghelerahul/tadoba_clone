@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./Project.css">
+    <script>
+        j=0
+        let b=["pro1.webp","squrril.webp","tiger.jpg","deer.jpeg"]
+        let data=[{heading:"OUR FRONTLINE<br/> FOREST GAURDAINS <br/>NEED YOUR SUPPORT",content:"DONATE NOW !"},{heading:"PLAN THE SMALLEST<br/>DETAILS OF YOUR<br/> JUNGLE ADVENTURE",content:"CLICK HERE !"},{heading:"GET THAT WILD<br/> SAFARI EXPERIENCE,<br/>MORNING,EVENING<br/> AND NIGHT",content:"BOOK NOW !"},{heading:"LEARN ABOUT OUR<br/> HISTORY AND OUR<br/> STUNNING<br/>BIODIVERSITY",content:"KNOW MORE !"}]
+         function func()
+         {
+            let iref=document.getElementById("simg")
+            let href=document.getElementById("hd")
+            let brf=document.getElementById("btn")
+
+         
+         j++
+         if(j>=b.length)
+         {
+            j=0
+        
+         }
+         iref.src=b[j]
+         href.innerHTML=data[j].heading
+         brf.innerHTML=data[j].content
+        }
+        
+        setInterval(func,2000)
+
+       
+    </script>
+
+</head>
+<body>
+    <script src="slidingcorosal.js"></script>
+    <div class="maincont">
+<div class="nav0">
+    <div class="nav1">
+        <div class="bk">BOOK NOW! |</div>
+        <div class="num1">+91-9576160778 /</div>
+        <div class="num2">8010539472 //</div>
+        <div class="sup">support@mytadoba.org |</div>
+        <div class="rti">RIGHT TO INFORMATION |</div>
+        <div class="follow">FOLLOW US</div>
+        <div class="fa-brands"><i class="fa-brands fa-facebook"></i></div>
+        <div><i class="fa-brands fa-twitter"></i></div>
+        <div><i class="fa-brands fa-youtube"></i></div>
+        <div><i class="fa-brands fa-instagram"></i></div>
+        
+    </div>
+</div>
+    <div class="nav2">
+        <div class="img"><img src="pro img.png"></div>
+        <div class="img2"><img src="pro img2.png"></div>
+        <div class="abt">ABOUT US <i class="fa-solid fa-caret-down"></i>
+            <div class="smenu">
+            <div class="file">OUR STORY
+            <div>TATR MANAGEMENT</div>
+            <div>NEWSLETTER</div>
+        </div>
+        </div>
+        </div>
+        <div class="trh">TOURIST HUB <i class="fa-solid fa-caret-down"></i>
+        <div class="menu">
+            <div class="hub">PLAN YOUR VISIT
+                <div>WILDLIFE SAFARIS</div>
+                <div>OTHER ADVENTURES</div>
+                <div>WHERE TO STAY</div>
+
+            </div>
+        </div>
+        </div>
+        <div class="con"><a href="https://mytadoba.org/contact-us/">CONTACT US</a></div>
+        <div class="wwu"><a href="https://mytadoba.org/work-with-us/">WORK WITH US</a></div>
+        <div class="shop">SHOP</div>
+        <div class="fa-solid"><a href="https://mytadoba.org/"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+        <div class="nav3"><p><a href="https://mytadoba.org/make-a-donation/">MAKE A DONATION</a></p></div>
+
+    </div>
+    <div class="cont"><img src="pro1.webp" id="simg"/>
+        <div class="text">
+            <div id="hd">OUR FRONTLINE <br/>FOREST GUARDIANS<br/>NEED YOUR SUPPORT
+               
+           </div>
+                
+             <div class="b1">
+            <button><div id="btn">DONATE NOW !</div></button></div>
+
+        </div>
+
+    </div>
+    <div class="witcont">
+        <img src="wholeimg.jpeg">
+    </div>
+    <div class="newcont">
+        <img src="lastone.jpg">
+        <div class="bcon">
+            <div class="navcont">
+                  <p>ABOUT TATR</p>
+            </div>
+            <div class="ncont">
+                <div class="head">Located in the Chandrapur district of Maharashtra, the Tadoba-Andhari Tiger Reserve is one of India’s preeminent reserves. Its tropical dry deciduous forest ecosystem harbours at least 80 tigers, and there are over 200 tigers in the larger landscape. This is known to be the fastest-growing tiger population in the country. Tadoba also supports several other carnivore species, including the leopard and dhole, with the sambar, chital, wild pig and gaur being the most common prey species.<br/><br/>
+
+                    Know more about Tadoba’s history and biodiversity, and the sustained conservation efforts over the decades that have led to the revival of tigers and other wildlife here.<br/><br/>
+                    <div class="b2">
+                    <button><div id="btun">LEARN MORE</div></button>
+                    </div>
+                   
+                </div>
+                <div class="imgs">
+                    <img src="bearimg.jpeg">
+                    <img src="cuteimg.jpeg">
+                    <img src="tigerrimg1.jpeg">
+                    <img src="monky.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont3">
+        <div class="navc1">
+        <div class="navc3"><p>BE ENCHANTED</p></div>
+        <div class="ttext">
+        <div class="twoi"><img src="twoimgs.png"></div>
+        <div class="texting">Experience Tadoba’s dazzling biodiversity – from our famous tigers to <br/>our beautiful butterflies. <b>Book a safari</b> into the wild heart of the jungle.<br/>Also get in touch with your own wild side with <b>rappelling, zip-lining <br/>and zorbing </b>at the Agarzari Adventure Camp. Take a boat ride on the <br/>stunning Irai backwaters. Go kayaking on Moharli lake. Stay at a log hut,<br/>or <b>spend the night on a machaan </b>if you dare! Whether you’re seeking an <br/>adrenaline rush or a calming immersion in the lap of Nature, we’ve<br/> got something your speed.<br/><br/>
+
+            Where to stay, what to do – <b>all the information you need,</b> right here. <br/> <br/>
+            <div class="b3">
+            <button><div class="plyb">PLAN YOUR VISIT</div> </button></div>
+        </div>
+        <div class="ftr1">
+            
+            <div class="body1">
+
+    
+        <div><img src="ftrimg1.jpeg" class="i1"></div>
+        <div><img src="ftrimg2.png" class="i1"></div>
+        <div><img src="ftrimg3.png" class="i1"></div>
+        <div><img src="ftrimg4.webp" class="i1"></div>
+
+        
+
+        </div>
+       
+        </div>
+       
+    </div>
+    </div>
+    </div>
+    <div class="ftr2">
+       <div class="ftrtext"><p>News, interviews and expert insights into TATR and its wildlife. <b>Subscribe to Tadoba Diaries</b>, our monthly newsletter!
+    </p></div>
+       
+    </div>
+    <div class="ftr3">
+        <div class="icons">
+            <div class="icon1"><i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i></div>
+            <div class="divs">
+                <img src="pro img.png" >
+                <img src="pro img2.png">
+                <div class="frtlast"><p><i>MyTadoba.org</i> is the official<br/> website of the Tadoba-Andhari<br/> Tiger Reserve, Forest<br/> Department, Government of<br/> Maharashtra</div>
+                 <div class="frtlast1"><p><i>QUICK LINKS</i><br/>> SAFARI BOOKINGS<br/> > ACTIVITY BOOKINGS<br/>> ABOUT TATR<br/>><em>MAKE A DONATION</em></p></div>   
+                <div class="frtlast2"><p>GET IN TOUCH <br/>Tadoba-Andhari Tiger Reserve<br/> Mul Road, Chandrapur – 442401<br/> Maharashtra, India<br/>  <em class="num1">+91-9579160778</em> / <em class="num2">7172277116</em><br/> <i>info@mytadoba.org</i></p></div>
+            </div>
+            <div class="last">© 2022 TADOBA-ANDHARI TIGER RESERVE CONSERVATION FOUNDATION. ALL RIGHTS RESERVED   |   <i>TERMS OF USE / POLICIES</i>  
+            </div>
+
+            </div>
+          
+        </div>
+    </div>
+    
+    
+    
+
+</div>
+</body>
+</html>
